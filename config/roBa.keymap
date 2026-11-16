@@ -85,10 +85,7 @@
             #binding-cells = <0>;
             wait-ms = <20>;
             tap-ms = <20>;
-            bindings =
-                <&kp LS(N8)>,
-                <&kp LS(N9)>,
-                <&kp LEFT>;
+            bindings = <&kp LS(N8) &kp LS(N9) &kp LEFT>;
         };
     };
 
@@ -124,7 +121,7 @@
 &kp ESC         &kp EXCLAMATION  &kp QUESTION        &kp LEFT_CONTROL  &lt 2 SPACE  &lt_to_layer_0 3 LANG2      &kp LANG1          &lt 1 ENTER                                                              &lt 6 LEFT_ALT
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         FUNCTION {
