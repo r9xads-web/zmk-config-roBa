@@ -56,7 +56,7 @@
 
         kakko {
             bindings = <&kakko>;
-            key-positions = <7 8>;
+            key-positions = <31 32>;
         };
     };
 
