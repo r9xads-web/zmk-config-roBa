@@ -78,8 +78,12 @@
         kakko: kakko {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(N9) &kp LS(N0) &kp LEFT>;
-            label = "KAKKO";
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings =
+                <&kp LPAR>,
+                <&kp RPAR>,
+                <&kp LEFT>;
         };
     };
 
