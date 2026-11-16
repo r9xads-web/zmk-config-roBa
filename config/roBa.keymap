@@ -78,7 +78,7 @@
         kakko: kakko {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(NUMBER_9) &kp LS(NUMBER_0) &kp LEFT>;
+            bindings = <&kp LPAR &kp RPAR &kp LEFT>;
             label = "KAKKO";
         };
     };
