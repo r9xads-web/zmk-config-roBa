@@ -53,6 +53,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
         };
+
+        kakko {
+            bindings = <&kakko>;
+            key-positions = <7 8>;
+        };
     };
 
     macros {
@@ -68,6 +73,13 @@
             #binding-cells = <0>;
             bindings = <&kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp KP_NUMBER_0 &kp KP_NUMBER_9 &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp KP_NUMBER_0 &kp KP_NUMBER_9 &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp KP_NUMBER_0 &kp KP_NUMBER_9 &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp KP_NUMBER_0 &kp KP_NUMBER_9>;
             label = "PW";
+        };
+
+        kakko: kakko {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(NUMBER_9) &kp LS(NUMBER_0) &kp LEFT>;
+            label = "KAKKO";
         };
     };
 
