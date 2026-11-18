@@ -105,8 +105,6 @@
 &mt LEFT_GUI Z  &mt LEFT_ALT X   &mt LEFT_CONTROL C  &mt LEFT_SHIFT V  &kp B        &kp TAB                     &kp LS(SEMICOLON)  &kp N        &mt LEFT_SHIFT M  &mt LEFT_CONTROL COMMA  &mt LEFT_ALT DOT  &mt LEFT_GUI DELETE
 &kp ESC         &kp EXCLAMATION  &kp QUESTION        &kp LEFT_CONTROL  &lt 2 SPACE  &lt_to_layer_0 3 LANG2      &kp BACKSPACE      &lt 1 ENTER                                                              &lt 6 LANG1
             >;
-
-            sensor-bindings = <&scroll_up_down>;
         };
 
         FUNCTION {
