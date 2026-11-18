@@ -58,6 +58,11 @@
             bindings = <&kakko>;
             key-positions = <31 32>;
         };
+
+        ALT_TAB {
+            bindings = <&ALT_TAB>;
+            key-positions = <3 4>;
+        };
     };
 
     macros {
@@ -226,10 +231,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &PW     &trans  &trans  &trans  &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
+&Ctrl_HOME  &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &Ctrl_END                        &PW     &trans  &trans  &trans  &trans
+&kp HOME    &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END      &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&Ctrl_PUp   &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &Ctrl_Pdown  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans                  &trans          &trans                   &trans       &trans      &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
