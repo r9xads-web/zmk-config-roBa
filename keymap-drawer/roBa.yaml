@@ -141,7 +141,7 @@ layers:
   - '&Ctrl_HOME'
   - Ctl+Sft+TAB
   - UP ARROW
-  - Sft+TAB
+  - Ctl+TAB
   - '&Ctrl_END'
   - HOME
   - LEFT ARROW
