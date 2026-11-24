@@ -138,35 +138,35 @@ layers:
   - UP ARROW
   - Ctl+TAB
   - '&Ctrl_END'
-  - '&PW'
-  - '&TAB_F4'
-  - '&alt_F4'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&Ctrl_HOME'
+  - Ctl+Sft+TAB
+  - UP ARROW
+  - Sft+TAB
+  - '&Ctrl_END'
   - HOME
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
   - END
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&alt_F4'
+  - HOME
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - END
   - '&Ctrl_PUp'
   - Gui+Sft+LEFT ARROW
   - {t: ▽, type: trans}
   - Gui+Sft+RIGHT ARROW
   - '&Ctrl_Pdown'
   - {t: ▽, type: trans}
+  - '&PW'
+  - '&Ctrl_PUp'
+  - Gui+Sft+LEFT ARROW
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+Sft+RIGHT ARROW
+  - '&Ctrl_Pdown'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
