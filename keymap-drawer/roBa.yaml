@@ -140,7 +140,7 @@ layers:
   - '&Ctrl_END'
   - '&PW'
   - '&TAB_F4'
-  - '&Ctrl_F4'
+  - '&alt_F4'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
